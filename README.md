@@ -74,7 +74,6 @@ where st_within(
  (select st_buffer(geom, 2000) FROM fluesse WHERE name = 'Emme')
 )
 order by name ASC
-
 ```
   
 >**ST_BUFFER** returns all points as a polygon within a distance from a geometry.
